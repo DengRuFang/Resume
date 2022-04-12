@@ -1,0 +1,187 @@
+    
+/*生活照*/
+    .lifephoto
+    {
+        background-color: #FAE1DD;
+        height: 500px;
+        width:1425px;
+        position: absolute;
+        top: 2000px;
+        left: 80px;
+        border-radius: 20px;
+    }
+
+    .lifetitle
+    {
+        font-family: 華康竹風體W4;
+        color:rgba(32, 136, 131, 0.834);
+        font-size: 30px;
+        font-weight: 600;
+        position: relative;
+        top: 20px;
+        left: 30px;
+    }
+
+    .meq
+    {
+        height: 400px;
+        position: relative;
+        top:70px;
+        left: 1050px;
+    }
+
+    .tv
+    {
+        width: 515px;
+        height: 380px;
+        position: relative;
+        top: -180px;
+        left: 230px;
+    }
+
+    .lifewrapper
+    {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: -950px;
+        left: -470px;
+    }
+
+    .typing
+    {
+        color:rgb(73, 121, 122);
+        width: 18ch;
+        animation: typing  3.6s steps(16),
+                    blink .5s step-end
+                    infinite alternate;
+        animation-iteration-count: infinite;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 3px solid;
+        font-family:華康竹風體W4 ;
+        font-weight: 500;
+        font-size: 2em;
+    }
+
+    @keyframes typing
+    {
+        from
+        {
+            width: 0;
+        }
+    }
+
+    @keyframes blink
+    {
+        50%
+        {
+            border-color: transparent   
+        }
+    }
+
+    .mySlides
+    {
+        display: none
+    }
+
+    .slideshow-container 
+    {
+        max-width: 480px;
+        position: relative;
+        top: -1450px;
+        left: 5px;
+        margin: auto;
+    }
+
+    .prev,
+    .next 
+    {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+    }
+
+    .next
+    {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+
+    .prev:hover,
+    .next:hover
+    {
+        background-color: rgba(238, 216, 211, 0.8);
+    }
+
+    .text 
+    {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .dot 
+    {
+        cursor: pointer;
+        height: 13px;
+        width: 13px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+
+    .active,
+    .dot:hover 
+    {
+        background-color: #717171;
+    }
+
+    .fade 
+    {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1s;
+        animation-name: fade;
+        animation-duration: 1s;
+    }
+
+    @-webkit-keyframes fade 
+    {
+        from 
+        {
+            opacity: .6
+        }
+
+        to 
+        {
+            opacity: 1
+        }
+    }
+
+    @keyframes fade 
+    {
+        from 
+        {
+            opacity: .6
+        }
+        to 
+        {
+            opacity: 1
+        }
+    }

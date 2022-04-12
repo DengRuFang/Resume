@@ -1,0 +1,81 @@
+    
+/*個人資料*/
+    .green
+    {
+        background-color:#D8E2DC ;
+        height: 300PX;
+        width: 1073px;
+        position: absolute;
+        top: 350px;
+        left: 430px;
+        border-radius: 20px;
+    }
+
+    img.me
+    {
+        position: absolute;
+        top:25px;
+        left: 100px;
+        height:250px;
+        width: 200px;
+        border-radius: 30px;
+        border-color: black;
+        border: 3;
+        transition:all 1.5s;
+    }
+
+    .me:hover
+    {
+        transform: scale(1.1);
+    }
+
+    .own
+    {
+        position: relative;
+        left: 130px;
+        top: 50px;
+        font-size: 36px;
+        font-family: 華康竹風體W4;
+        font-weight: bolder;
+    }
+
+    .imformation
+    {
+        background-color: rgba(255, 255, 255, 0.76);
+        border-radius: 30px;
+        height: 230px;
+        width: 500px;
+        position: absolute;
+        left: 360px;
+        top: 40px;
+        font-size: 22px;
+    }
+
+    p.imformation1
+    {
+        color:midnightblue;
+        font-family:華康竹風體W4;
+        position: relative;
+        left: 80px;
+        top:20px;
+        font-weight: bolder;
+    }
+
+    img.habits
+    {
+        height: 40px;
+        position: relative;
+        top:10px
+    }
+
+    .whiteback
+    {
+        background-color: #f5e9a5b9;
+        height: 210px;
+        width: 480px;
+        position: absolute;
+        left: 370px;
+        top:50px;
+        border-radius: 30px;
+        
+    }

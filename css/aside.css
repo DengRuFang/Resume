@@ -1,0 +1,247 @@
+
+/*側邊欄*/
+    aside
+    {
+        background-color: hsl(233, 62%, 92%);
+        width: 300px;
+        height:1250px;
+        margin-top: 225px;
+        margin-left: 70px;
+        margin-bottom: 50px;
+        border-radius: 10px;
+    }
+
+    aside a
+    {
+        text-decoration: none;
+    }
+
+    .life1
+    {
+        position: absolute;
+        left: 50px;
+        top: 390px;
+        height: 220px;
+        width: 350px;
+        transition: all 0.5s;
+    }
+
+    .life1:hover
+    {
+        transform: scale(1.1);
+    }
+
+    .schooltitle
+    {
+        font-family:華康竹風體W4;
+        font-weight: 700;
+        font-size: 26px;
+        color:rgba(32, 136, 131, 0.834);
+        position: relative;
+        left: 29px;
+    }
+
+    .shool4
+    {
+        list-style: none;
+        font-family:華康竹風體W4;
+    }
+
+/*學校校徽*/
+    .schoollogo1,.schoollogo2,
+    .schoollogo3,.schoollogo4
+    {
+        height: 50px;
+    }
+
+    .schoollogo1
+    {
+        position: relative;
+        left:-20px;
+        top:10px;
+    }
+
+    .schoollogo2
+    {
+        position: relative;
+        left: -20px;
+        top: -160px;
+    }
+
+    .schoollogo3
+    {
+        position: relative;
+        left: -20px;
+        top:-320px;
+    }
+
+    .schoollogo4
+    {
+        position: relative;
+        left: -20px;
+        top: -470px;
+    }
+
+/*校名*/
+    .schoolname1,.schoolname2,
+    .schoolname3,.schoolname4
+    {
+        font-weight: 700;
+        font-size: larger;
+        color:rgb(63, 63, 63);
+    }
+
+    .schoolname1
+    {
+        position: relative;
+        top:-10px;
+        left:-10px;
+    }
+
+    .schoolname1:hover
+    {
+        background-color: antiquewhite;
+        border-radius: 10px;
+    }
+
+    .schoolname2
+    {
+        position: relative;
+        top: -180px;
+        left:-6px;
+    }
+
+    .schoolname2:hover
+    {
+        background-color: antiquewhite;
+        border-radius: 10px;
+    }
+
+    .schoolname3
+    {
+        position: relative;
+        top: -340px;
+        left: -12px;
+    }
+
+    .schoolname3:hover
+    {
+        background-color: antiquewhite;
+        border-radius: 10px;
+    }
+
+    .schoolname4
+    {
+        position: relative;
+        top: -490px;
+        left:-12px;
+    }
+
+    .schoolname4:hover
+    {
+        background-color: antiquewhite;
+        border-radius: 10px;
+    }
+
+/*學校敘述*/
+    .school1,.school2,
+    .school3,.school4
+    {
+        background-color: rgba(253, 249, 229, 0.432);
+        height: 200px;
+        width: 150px;
+        border-radius: 20%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+
+    .school1
+    {   
+        position: relative;
+        top: -190px;
+        left: 20px;
+    }
+
+    .school2
+    {
+        position: relative;
+        top: -355px;
+        left: 20px;
+    }
+
+    .school3
+    {
+        position: relative;
+        top: -515px;
+        left: 20px;
+    }
+
+    .school4
+    {
+        position: relative;
+        top: -675px;
+        left: 20px;
+    }
+
+/*學校照片*/
+    .schoolpic1,.schoolpic2,
+    .schoolpic3,.schoolpic4
+    {
+        height: 200px;
+        border-radius: 20%;
+    }
+
+    .schoolpic1
+    {                
+        position: relative;
+        top:15px;
+        left: 20px;
+    }
+
+    .schoolpic2
+    {
+        position: relative;
+        top: -150px;
+        left: 20px;
+    }
+
+    .schoolpic3
+    {
+        position: relative;
+        top: -310px;
+        left: 20px;
+    }
+
+    .schoolpic4
+    {
+        position: relative;
+        top: -470px;
+        left: 20px;
+    }
+
+    .picfront,.picback
+    {
+        backface-visibility: hidden;
+        transition: all .25s;
+    }
+
+    .picback
+    {
+        transform: rotateY(-180deg);
+    }
+
+    .allschool
+    {
+        perspective: 800px;
+    }
+
+    .allschool:hover .picfront 
+    {
+        transform: rotateY(180deg);
+    }
+
+    .allschool:hover .picback
+    {
+        transform: rotateY(0deg);
+    }

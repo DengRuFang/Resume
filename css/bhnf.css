@@ -1,0 +1,294 @@
+
+    html
+    {
+        scroll-behavior: smooth;
+    }
+
+    body
+    {
+        background-color: #F8EDEB; 
+        overflow-x: hidden;
+    }
+
+    header
+    {
+        padding:10px;
+        height: 300px;
+        width: 1480px;
+        background-color:rgb(247, 236, 219);
+    }
+
+    .header,.headerback
+    {
+        background-color: rgb(247, 240, 240);
+        height: 150px;
+        width: 400px;
+        position: absolute;
+        left:230px;
+        top: 80px;
+        transition: 2s;
+        backface-visibility: hidden;
+        border: 5px solid rgb(248, 240, 225);
+        box-shadow: 0px 5px 10px rgba(0,0,0,.5);
+    }
+
+    .header
+    {
+        transform: perspective(1000px) rotateY(0deg);
+    }
+
+    .headerback
+    {
+        transform: perspective(1000px) rotateY(180deg);
+        z-index: 1;
+    }
+
+    .box:hover .header
+    {
+        transform: perspective(1000px) rotateY(-180deg);
+        z-index: 2;
+    }
+
+    .box:hover .headerback
+    {
+        transform: perspective(1000px) rotateY(0deg);
+        z-index: 1;
+    }
+
+    .box
+    {
+        position: absolute;
+        left: 550px;
+        top: 80px;
+        height: 150px;
+        width: 400px;
+        transform: translate(-50%,-50%);
+    }
+
+/*選單*/
+    nav a 
+    {
+        position: relative;
+        display: inline-block;
+        padding: 25px 30px;
+        margin: 40px 0;
+        text-decoration: none;
+        text-transform: uppercase;
+        overflow: hidden;
+        transition: 0.5s;
+        letter-spacing: 4px;
+    }
+
+    nav a:hover
+    {
+        background-color:rgb(250, 222, 184) ;
+        color: rgb(255, 255, 255);
+    }
+
+    nav a span
+    {
+        position: absolute;
+        display: block;
+    }
+
+    nav a span:nth-child(1)
+    {
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(90deg,transparent,rgb(251, 218, 168));    
+        animation: animate1 1s linear infinite;
+    }
+
+    @keyframes animate1
+    {
+        0%
+        {
+            left: -100%;
+        }
+        50%,100%
+        {
+            left: 100%;
+        }
+    }
+
+    nav a span:nth-child(2)
+    {
+        top: -100%;
+        right: 0;
+        width: 2px;
+        height: 100%;
+        background: linear-gradient(180deg,transparent,rgb(251, 218, 168));    
+        animation: animate2 1s linear infinite;
+        animation-delay: 0.25s;
+    }
+
+    @keyframes animate2
+    {
+        0%
+        {
+            top: -100%;
+        }
+        50%,100%
+        {
+            top: 100%;
+        }
+    }
+
+    nav a span:nth-child(3)
+    {
+        bottom: 0;
+        right: -100%;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(270deg,transparent,rgb(251, 218, 168));    
+        animation: animate3 1s linear infinite;
+        animation-delay: 0.5s;
+    }
+
+    @keyframes animate3
+    {
+        0%
+        {
+            right: -100%;
+        }
+        50%,100%
+        {
+            right: 100%;
+        }
+    }
+
+    nav a span:nth-child(4)
+    {
+        bottom: -100%;
+        left:0 ;
+        width: 2px;
+        height: 100%;
+        background: linear-gradient(360deg,transparent,rgb(251, 218, 168));    
+        animation: animate4 1s linear infinite;
+        animation-delay: 0.75s;
+    }
+
+    @keyframes animate4
+    {
+        0%
+        {
+            bottom: -100%;
+        }
+        50%,100%
+        {
+            bottom: 100%;
+        }
+    }
+
+    .backaside,.backskill,
+    .backstory,.backlife
+    {
+        padding: 10px;
+        font-family: 華康竹風體W4;
+        font-size: 24px;
+        background-color: rgb(247, 236, 219);
+        border-radius: 5px;
+    }
+
+    .backaside
+    {  
+        position: relative;
+        top: -85px;
+        left: 1050px;
+    }
+
+    .backskill
+    {
+        position: relative;
+        top: -85px;
+        left: 1060px;
+    }
+
+    .backstory
+    {
+        position: relative;
+        top: -85px;
+        left: 1070px;
+    }
+
+    .backlife
+    {
+        position: relative;
+        top: -85px;
+        left: 1080px;
+    }
+
+/*底部*/
+    footer
+    {
+        text-align: center;
+        background-color: #D8E2DC;
+        height: 135px;
+        width: 1500px;
+        position: relative;
+        top: 550px;
+    }
+
+    .footerword,.contact
+    {
+        font-family: 華康竹風體W4;
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .footerword
+    {
+        position: relative;
+        top: 60px;
+        left: 20px;
+    }
+
+    .contact
+    {
+        position: relative;
+        top: -10px;
+        left: -655px;
+    }
+
+    .fb,.ig,.email
+    { 
+        height: 50px;
+        position: relative;
+        top: 0px;
+    }
+
+    .fb
+    {
+        left: -650px;
+    }
+
+    .ig
+    {
+        left: -650px;
+        top: -1px;
+    }
+
+    .email
+    {
+        height: 45px;
+        top: -51px;
+        left: -565px;
+    }
+
+/*top*/
+    .gotop 
+    {
+        position: fixed;
+        border-radius: 50px;
+        left: 5px;
+        bottom: 50%;
+        padding: 10px 16px;
+        font-size: 25px;
+        background: rgba(224, 176, 176, 0.568);
+        color: #FAFCFD;
+        cursor: pointer;
+        z-index: 1000;
+        font-family:華康竹風體W4;
+    }

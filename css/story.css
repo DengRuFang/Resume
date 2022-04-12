@@ -1,0 +1,507 @@
+    
+/*個人經歷*/
+    .story
+    { 
+        background-color: #ECE4DB;
+        position: absolute;
+        top: 1210px;
+        left: 430px;
+        height: 720px;
+        width: 1073px;
+        border-radius: 20px;
+    }
+
+    .storytitle
+    {
+        font-family: 華康竹風體W4;
+        color:rgba(32, 136, 131, 0.834);
+        font-size: 30px;
+        font-weight: 600;
+        position: absolute;
+        left: 50px;
+        top: 25px;
+    }
+
+    .storypic1,.storypic2,
+    .storypic3,.storypic4
+    {
+        height: 280px;
+        width: 390px;
+        border-radius: 20px;
+    }
+
+    .storypic1
+    {
+        position: absolute;
+        left: 80px;
+        top: 90px;
+        -webkit-transition: opacity 0.5s ease-in-out;
+    }
+
+    .storypic1:hover
+    {
+        opacity:0;             
+    }
+
+    .storypic2
+    {                
+        position:absolute;
+        left:80px;
+        top: 400px;
+        -webkit-transition: opacity 0.5s ease-in-out;
+    }
+
+    .storypic2:hover
+    {
+        opacity:0; 
+    }
+
+    .storypic3
+    {
+        position: absolute;
+        top: 90px;
+        left: 600px;
+        -webkit-transition: opacity 0.5s ease-in-out;
+    }
+
+    .storypic3:hover
+    {
+        opacity:0; 
+    }
+
+    .storypic4
+    {
+        position:absolute;
+        top:400px;
+        left: 600px;
+        -webkit-transition: opacity 0.5s ease-in-out;
+    }
+
+    .storypic4:hover
+    {
+        opacity:0;
+    }
+
+    .storywordcenter1,.storywordcenter2,
+    .storywordcenter3,.storywordcenter4
+    {
+        font-family:  華康竹風體W4;
+        font-size: 22px;
+        font-weight: 300;
+        color:rgb(17, 29, 29);    
+    }
+
+    .storywordcenter1
+    {
+        position: relative;
+        top:130px;
+        left: 230px;
+    }
+
+    .storywordcenter2
+    {
+        position: relative;
+        top:340px;
+        left: 230px;
+    }
+
+    .storywordcenter3
+    {
+        position: relative;
+        top:-45px;
+        left: 755px;
+    }
+
+    .storywordcenter4
+    {
+        position: relative;
+        top:180px;
+        left:750px;
+    }
+        
+    .storyword1,.storyword2,
+    .storyword3,.storyword4
+    {
+        border-radius: 20px;
+        background-color: rgba(247, 235, 241, 0.725);
+        height: 280px;
+        width: 390px;
+        font-family:華康竹風體W4;
+        font-size: 20px;
+        color:darkslategrey;
+        display: flex;
+        align-items: center;
+    }
+
+/*專題競賽*/
+    .storyword1
+    {
+        position: absolute;
+        left: 80px;
+        top: 90px;
+    }
+
+    .good1,.good2,.good3
+    {
+        height: 30px;
+    }
+
+    .good1
+    {
+        position: relative;
+        top: 72px;
+        left: 100px;
+        transition: 0.5s ease-in-out;
+        opacity: 0;
+    }
+
+    .good1:hover
+    {
+        opacity: 1;
+        transform: scale(10);
+    }
+
+    .good2
+    {
+        position: relative;
+        top: 72px;
+        left: 110px;
+        transition: 0.5s ease-in-out;
+        opacity:0;
+    }
+
+    .good2:hover
+    {
+        opacity: 1;
+        transform: scale(10);
+    }
+
+    .good3
+    {
+        position: relative;
+        top: 72px;
+        left: 120px;
+        transition: 0.5s ease-in-out;
+        opacity:0;
+    }
+
+    .good3:hover
+    {
+        opacity:1;
+        transform: scale(10);
+    }
+
+    .goodtwin1
+    {
+        height: 30px;
+        position: relative;
+        top: 105px;
+        left: 100px;
+    }
+
+    .goodtwin2
+    {
+        height: 30px;
+        position: relative;
+        top: 105px;
+        left: 110px;
+    }
+
+    .goodtwin3
+    {
+        height: 30px;
+        position: relative;
+        top: 105px;
+        left: 120px;
+    }
+
+/*企業概論*/
+    .storyword2
+    {
+        position:absolute;
+        left:80px;
+        top: 400px;
+    }
+
+    .QQ1,.QQ2,.QQ3
+    {
+        height: 30px;
+    }
+
+    .QQ1
+    {
+        position: relative;
+        top: 280px;
+        left: 110px;
+        transition: 0.5s ease-in-out;
+        opacity: 0;
+    }
+
+    .QQ1:hover
+    {
+        opacity: 1;
+        transform:scale(10);
+    }
+
+    .QQtwin1
+    {
+        height: 30px;
+        position: relative;
+        top: 315px;
+        left: 110px;
+    }
+
+    .QQ2
+    {
+        position: relative;
+        top: 280px;
+        left: 120px;
+        transition: 0.5s ease-in-out;
+        opacity: 0;
+    }
+
+    .QQ2:hover
+    {
+        opacity: 1;
+        transform:scale(10);
+    }
+
+    .QQtwin2
+    {
+        height: 30px;
+        position: relative;
+        top: 315px;
+        left: 120px;
+    }
+
+    .QQ3
+    {
+        position: relative;
+        top: 280px;
+        left: 130px;
+        transition: 0.5s ease-in-out;
+        opacity: 0;
+    }
+
+    .QQ3:hover
+    {
+        opacity: 1;
+        transform:scale(10);
+    }
+
+    .QQtwin3
+    {
+        height: 30px;
+        position: relative;
+        top: 315px;
+        left: 130px;
+    }
+
+    .QQig
+    {
+        height: 30px;
+        position: relative;
+        top: 280px;
+        left: 255px;
+        opacity: 0;
+    }
+
+    .QQig:hover
+    {
+        opacity: 1;
+    }
+
+
+    .QQtwinig
+    {  
+        height: 30px;
+        position: relative;
+        top: 314px;
+        left: 255px;
+    }
+
+/*溜冰社*/
+    .storyword3
+    {
+        position: absolute;
+        top: 90px;
+        left: 600px;
+    }
+
+    .ice1,.ice2,.ice3
+    {
+        height: 25px;
+    }
+
+    .ice1
+    {
+        position: relative;
+        top: -100px;
+        left: 620px;
+        transition: 0.5s ease-in-out;
+        opacity: 0;
+    }
+
+    .ice1:hover
+    {
+        opacity: 1;
+        transform:scale(10);
+    }
+
+    .icetwin1
+    {
+        height: 25px;
+        position: relative;
+        top: -70px;
+        left: 620px;
+    }
+
+    .ice2
+    {
+        position: relative;
+        top: -100px;
+        left: 630px;
+        transition: 0.5s ease-in-out;
+        opacity: 0;
+    }
+
+    .ice2:hover
+    {
+        opacity: 1;
+        transform:scale(10);
+    }
+
+    .icetwin2
+    {
+        height: 25px;
+        position: relative;
+        top: -70px;
+        left: 630px;
+    }
+
+    .ice3
+    {
+        position: relative;
+        top: -100px;
+        left: 640px;
+        transition: 0.5s ease-in-out;
+        opacity: 0;
+    }
+
+    .ice3:hover
+    {
+        opacity: 1;
+        transform:scale(10);
+    }
+
+    .icetwin3
+    {
+        height: 25px;
+        position: relative;
+        top: -70px;
+        left: 640px;
+    }
+
+    .QQice
+    {
+        height: 30px;
+        position: relative;
+        top: -106px;
+        left: 730px;
+        opacity: 0;
+    }
+
+    .QQice:hover
+    {
+        opacity: 1;
+    }
+
+    .QQtwinice
+    {
+        height: 30px;
+        position: relative;
+        top: -72px;
+        left: 730px;
+    }
+
+/*元旦路溜*/
+    .storyword4
+    {
+        position:absolute;
+        top:400px;
+        left: 600px;
+    }
+
+    .egg1,.egg2,.egg3
+    {
+        height: 25px;
+    }
+
+    .egg1
+    {
+        position: relative;
+        top: 130px;
+        left: 620px;
+        transition: 0.5s ease-in-out;
+        opacity: 0;
+    }
+
+    .egg1:hover
+    {
+        opacity: 1;
+        transform:scale(10);
+    }
+
+    .eggtwin1
+    {
+        height:25px ;
+        position: relative;
+        top: 158px;
+        left: 620px;  
+    }
+
+    .egg2
+    {
+        position: relative;
+        top: 130px;
+        left: 630px;
+        transition: 0.5s ease-in-out;
+        opacity: 0;
+    }
+
+    .egg2:hover
+    {
+        opacity: 1;
+        transform:scale(10);
+    }
+
+    .eggtwin2
+    {
+        height: 25px;
+        position: relative;
+        top: 158px;
+        left: 630px;
+    }
+
+    .egg3
+    {  
+        position: relative;
+        top: 130px;
+        left: 640px;
+        transition: 0.5s ease-in-out;
+        opacity: 0;
+    }
+
+    .egg3:hover
+    {
+        opacity: 1;
+        transform:scale(10);
+    }
+
+    .eggtwin3
+    {
+        height: 25px;
+        position: relative;
+        top: 158px;
+        left: 640px;
+    }
